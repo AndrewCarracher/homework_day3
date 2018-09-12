@@ -107,10 +107,30 @@ users = {
 # Add another person to the users hash
 
 # p users["Jonathan"][:twitter]
-p users["Erik"][:home_town]
-
-
-
+# p users["Erik"][:home_town]
+# p users["Erik"][:lottery_numbers]
+# p users["Avril"][:pets][0][:species]
+# numbers = users["Erik"][:lottery_numbers]
+# result = 1000
+# for number in numbers
+#   if number < result
+#     result = number
+#   end
+# end
+# p result
+# numbers = users["Avril"][:lottery_numbers]
+# result = []
+# for number in numbers
+#   if number % 2 == 0
+#     result.push(number)
+#   end
+# end
+# p result
+# users["Erik"][:lottery_numbers].push(7)
+# users["Erik"][:hometown] = "Edinburgh"
+# users["Erik"][:pets].push(:name => "Fluffy", :species => "dog")
+# users["Another Person"] = {twitter: "yolo", lottery_numbers: [1,2,3,4,5,6,7], home_town: "inverness", pets: [{name: "Frank", species: "goat"}]}
+# p users["Another Person"]
 
 
 # Exercise C
